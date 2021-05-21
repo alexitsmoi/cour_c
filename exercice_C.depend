@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1621602116 source:z:\projet\exercice_c\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1621602111 source:z:\projet\exercice_c\exercice_2.c
+	<stdio.h>
+
+1621603301 source:z:\projet\exercice_c\exercice_3.c
+	<stdio.h>
+
+1621603814 source:z:\projet\exercice_c\exercice3_2.c
+	<stdio.h>
+	<stdlib.h>
+
