@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int maindf()
+int maine()
 {
     int n=10, p=5, q=10, r;
     r = n == (p=q);

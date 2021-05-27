@@ -1,10 +1,11 @@
 #include <stdio.h>
 
-int mainfd ()
+int mainfs ()
 
 {
-    int i, n, som;
-    som = 0;
+int i, n, som;
+som = 0;
+
 for (i=0 ; i<4 ; i++)
     {
         printf ("donnez un entier");
@@ -15,7 +16,7 @@ for (i=0 ; i<4 ; i++)
 
     som = 0;
     i = 0;
-    while(i<4)
+while(i<4)
     {
         printf ("donnez un entier");
         scanf("%d", &n);
@@ -25,12 +26,12 @@ for (i=0 ; i<4 ; i++)
     printf("Somme :  %d\n" , som);
     som = 0;
     i = 0;
-    do{
+do{
         printf ("donnez un entier");
         scanf("%d", &n);
         som += n;
         i++;
-    }while(i<4);
+}while(i<4);
 
     printf("Somme :  %d\n ", som);
 }
